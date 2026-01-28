@@ -7,5 +7,5 @@ void main()
     scanf("%d %d",&a,&b);
     sum=a+b;
     mul=a*b;
-    printf("The sum and product of a and b is %d and %d ",sum, mul):
+    printf("The sum and product of a and b is %d and %d ",sum, mul);
 }
