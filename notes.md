@@ -45,6 +45,8 @@
  '1st rwx - for user' 
  '2nd rwx - for group'
  '3rd rwx - for aka that is world' 
+ # the command we use is"chmod that means change mode"
+ * 'for example chmod +x file name' to undo changes we use - instead of + in the same comand again
 
 'For files u will be having the same but there will be no d that is directory present in it '
 'you will have to enter code . in  vs code terminal if u want that to be seen in a file form '
