@@ -47,3 +47,4 @@
  '3rd rwx - for aka that is world' 
 
 'For files u will be having the same but there will be no d that is directory present in it '
+'you will have to enter code . in  vs code terminal if u want that to be seen in a file form '
