@@ -1,6 +1,6 @@
 
 
-# Linux basics
+#  Linux basics
 
 
 # Linux commands:
