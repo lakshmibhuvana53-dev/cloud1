@@ -50,3 +50,14 @@
 
 'For files u will be having the same but there will be no d that is directory present in it '
 'you will have to enter code . in  vs code terminal if u want that to be seen in a file form '
+
+#  Commands used to check the memory spaces
+'free - used for seeing how much emory is used,free,available,swap'
+'free -m it does the same work but in a efficient way'
+'df - it is used to dee disk free spaces'
+'df -h - same but in shows in a very efficient way that h is human understandable'
+'df -i - which is used to see the toatal number of inodes , free inodes ,etc'
+'/bin/df - works same as df '
+'/bin/df -i - wprks same as df -i'
+'htop - which is used to check memory space again, cpu 's,how long the system is on, number of tasks done etc'
+'uptime - which tells how long the system is on ,pending tasks that need the help of cpu is shown'
