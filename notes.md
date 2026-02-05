@@ -61,3 +61,13 @@
 '/bin/df -i - wprks same as df -i'
 'htop - which is used to check memory space again, cpu 's,how long the system is on, number of tasks done etc'
 'uptime - which tells how long the system is on ,pending tasks that need the help of cpu is shown'
+
+# commands for installing and removing packages
+
+'sudo apt upgrade'- to upgrade any packages
+'apt search ____' - which package u want to search u can search through this command
+'sudo apt install ____'- to install packages 
+'sudo apt dist-upgrade'- if u missed any update in upgrade command this command will update the remaining
+'sudo apt remove ____'- used to remove packages
+'sudo apt autoremove'- used to remove packagges and the supported packages (should check the packages before accepting)
+'sudo reboot'- to reboot the system for some security purposes
