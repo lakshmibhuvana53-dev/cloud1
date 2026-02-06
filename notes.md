@@ -79,3 +79,6 @@
 'sudo systemctl stop _______'- this stops the working of the packge
 'sudo systemctl start _____'- this one agains reload or starts the package 
 'sudo systemctl enable ______' - this command does not directly start the dead package 
+'sudo systemctl restart ________'- this command tells from how long it is n or working
+
+* this commmands above are mainly used to know or check about the servers , browsers ,etc working in background
