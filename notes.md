@@ -71,3 +71,11 @@
 'sudo apt remove ____'- used to remove packages
 'sudo apt autoremove'- used to remove packagges and the supported packages (should check the packages before accepting)
 'sudo reboot'- to reboot the system for some security purposes
+
+# commands for system mangement
+'systemctl status________'- this tells that the package is active or not
+'sudo systemctl status_______'- does the same but in detail
+'systemctl disable_______'- this directely does not stop the running package 
+'sudo systemctl stop _______'- this stops the working of the packge
+'sudo systemctl start _____'- this one agains reload or starts the package 
+'sudo systemctl enable ______' - this command does not directly start the dead package 
