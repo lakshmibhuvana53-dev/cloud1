@@ -82,3 +82,7 @@
 'sudo systemctl restart ________'- this command tells from how long it is n or working
 
 * this commmands above are mainly used to know or check about the servers , browsers ,etc working in background
+
+# commands to view logs
+
+'path - cat /var/log/syslog'
