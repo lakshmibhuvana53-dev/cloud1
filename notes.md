@@ -86,3 +86,23 @@
 # commands to view logs
 
 'path - cat /var/log/syslog'
+
+
+
+
+
+# commands for managing users
+
+'cat /etc/passwd'- to view the users and user id
+'cat /etc/shadow'- where the password is stored
+'sudo !!' - we can use this to use the previous command
+'sudo adduser _____' - used to create a new user
+'passwd _____' - used to change the password
+'sudo passwd _______' - used to change the password without previously assigned password
+'sudo su - ' - to login as a root user
+'sudo userdel -r _____' - to remove the user
+'sudo groupadd _______' - to add the group
+'sudo usermod -aG _______ the ______(orginal group name)' - to move the new group into existing group
+'sudo gpasswd -d ____ _____(the new group added)' - used to remove the added group from the maingroup
+'sudo groupdel _______' - to delete the entire group
+'tail /etc/group' - to view how many groups exists in last 10
