@@ -112,3 +112,15 @@
 'history' - shows previously used commands
 '!____(34 numbers assigned for commands)' - this will show which command was there in that numeric value
 ' sudo apt update' - the space before the command means this command will notbe stored in history
+
+
+# Commands to redirect the output
+'ls -l > file.txt' - creates a new file and overwrites the existing file
+'ls -l >> file.txt' - does not over write but appends the file
+'cat file.txt | sort | uniq' - sorts number of lines 
+'cat ls -l | grep file'
+'cat file.txt | grep -v file.txt'
+'cat file.txt | grep -v file.txt > ______(new_file.txt)'
+'ls -l | wc - 1'
+'ls -l | wc'
+'ls -l /etc | wc -1'
