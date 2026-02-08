@@ -106,3 +106,9 @@
 'sudo gpasswd -d ____ _____(the new group added)' - used to remove the added group from the maingroup
 'sudo groupdel _______' - to delete the entire group
 'tail /etc/group' - to view how many groups exists in last 10
+
+# History commands
+
+'history' - shows previously used commands
+'!____(34 numbers assigned for commands)' - this will show which command was there in that numeric value
+' sudo apt update' - the space before the command means this command will notbe stored in history
