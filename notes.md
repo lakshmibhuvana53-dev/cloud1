@@ -71,3 +71,56 @@
 'sudo apt remove ____'- used to remove packages
 'sudo apt autoremove'- used to remove packagges and the supported packages (should check the packages before accepting)
 'sudo reboot'- to reboot the system for some security purposes
+
+# commands for system mangement
+'systemctl status________'- this tells that the package is active or not
+'sudo systemctl status_______'- does the same but in detail
+'systemctl disable_______'- this directely does not stop the running package 
+'sudo systemctl stop _______'- this stops the working of the packge
+'sudo systemctl start _____'- this one agains reload or starts the package 
+'sudo systemctl enable ______' - this command does not directly start the dead package 
+'sudo systemctl restart ________'- this command tells from how long it is n or working
+
+* this commmands above are mainly used to know or check about the servers , browsers ,etc working in background
+
+# commands to view logs
+
+'path - cat /var/log/syslog'
+
+
+
+
+
+# commands for managing users
+
+'cat /etc/passwd'- to view the users and user id
+'cat /etc/shadow'- where the password is stored
+'sudo !!' - we can use this to use the previous command
+'sudo adduser _____' - used to create a new user
+'passwd _____' - used to change the password
+'sudo passwd _______' - used to change the password without previously assigned password
+'sudo su - ' - to login as a root user
+'sudo userdel -r _____' - to remove the user
+'sudo groupadd _______' - to add the group
+'sudo usermod -aG _______ the ______(orginal group name)' - to move the new group into existing group
+'sudo gpasswd -d ____ _____(the new group added)' - used to remove the added group from the maingroup
+'sudo groupdel _______' - to delete the entire group
+'tail /etc/group' - to view how many groups exists in last 10
+
+# History commands
+
+'history' - shows previously used commands
+'!____(34 numbers assigned for commands)' - this will show which command was there in that numeric value
+' sudo apt update' - the space before the command means this command will notbe stored in history
+
+
+# Commands to redirect the output
+'ls -l > file.txt' - creates a new file and overwrites the existing file
+'ls -l >> file.txt' - does not over write but appends the file
+'cat file.txt | sort | uniq' - sorts number of lines 
+'cat ls -l | grep file'
+'cat file.txt | grep -v file.txt'
+'cat file.txt | grep -v file.txt > ______(new_file.txt)'
+'ls -l | wc - 1'
+'ls -l | wc'
+'ls -l /etc | wc -1'
