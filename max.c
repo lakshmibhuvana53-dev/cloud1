@@ -31,7 +31,7 @@ void main()
                     max=c;
                 }
             }
-        printf("\n The Biggest of # numbers is:%d",max);
+        printf("\n The Biggest of 3 numbers is:%d",max);
         getch();         
 
 }
