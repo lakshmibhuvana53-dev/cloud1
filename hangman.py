@@ -1,19 +1,32 @@
 import random
-word_list = ["aaadvark", "baboon", "camel"]
+word_list = ["aadvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 print(chosen_word)
 placeholder = " " 
 word_length = len(chosen_word)
-for _ in range(word_length):
+for position in range(word_length):
     placeholder += "_"
 print(placeholder)
-guess = input("Guess a letter: ").lower()
-print(guess)
-display = " "
+game_over = False
+correct_letters = []
+while not game_over:
+    guess = input("Guess a letter: ").lower()
+    print(guess)
+    display = " "
 
-for letter in chosen_word:
-    if letter == guess:
-        display += letter
-    else:
-        display += "_"
-print(display)
+    for letter in chosen_word:
+
+        if letter == guess:
+            display += letter
+            correct_letters.append(letter)
+        elif letter in correct_letters:
+            display += letter
+        else:
+            display += "_"
+    print(display)
+
+    if "_" not in display:
+        game_over = True
+        print("You win.")
+
+
