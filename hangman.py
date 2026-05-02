@@ -1,4 +1,6 @@
 import random 
+from hungman_words import word_list
+from hungman_art import stages
 stages = ['''
   +---+
   |   |
